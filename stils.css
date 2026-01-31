@@ -257,3 +257,41 @@ hr
     box-shadow: 0 0 15px black;
     text-shadow: 0 0 15px #F0F6FF;
 }
+
+
+/* 
+
+
+
+   BURADAN SONRASI yaziAlani html'nin KISMIDIR!!!
+   BURADAN SONRASI yaziAlani html'nin KISMIDIR!!!
+   BURADAN SONRASI yaziAlani html'nin KISMIDIR!!!
+
+
+   adamsın erkan 
+*/
+
+.hikayeYazisi
+{
+    width: 100%;
+    height: 970px;
+    background-color: rgb(18, 51, 79);
+    display: flex;            
+    justify-content: center;  
+    align-items: center;
+}
+
+.hikayeArea
+{
+    width: 70%;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    line-height: 1.5;
+    box-shadow: 5px 5px 2px black;
+    background-image: url(FOTOLAR/indir.jfif);
+}
