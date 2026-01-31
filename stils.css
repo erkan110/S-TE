@@ -38,12 +38,11 @@ body
     color: #FACC15;
     text-shadow: 0 0 20px #ddff00;
 }
-
 .tablo 
 {
     width: 100%;
     text-align: center;
-    margin:40px auto;
+    margin:40px auto; 
 }
 .tablo h1
 {
@@ -68,6 +67,8 @@ body
     border-radius: 20px;
     position: relative;
     top: 30px;
+    transition: 1s;
+    transform-style: preserve-3d;
 }
 .orta
 {
@@ -77,11 +78,15 @@ body
 	border: 3px solid #0059ff;
 	margin:10px; 
     border-radius: 20px;
+    transition: 1s;
+    transform-style: preserve-3d;
 }
 .sol:hover,.orta:hover,.sag:hover
 {
     background-color:#FACC15; 
 	border: 3px solid #ddff00;
+    transition: 1s;
+    transform: translateY(-10px) rotateX(5deg) rotateY(5deg) scale(1.02);
 }
 hr
 {
@@ -100,6 +105,7 @@ hr
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 0.8s;
 }
 .ekle p
 {
@@ -111,6 +117,7 @@ hr
     margin: 40px 20px 0px 20px;
     line-height: 35px;
     text-shadow: 0 0 15px black;
+    transition: 0.5s;
 }
 .ekle button
 {
@@ -127,6 +134,7 @@ hr
     border-radius: 20px;
     box-shadow: 0 0 15px black;
     text-shadow: 0 0 15px #F0F6FF;
+    transition: 1s;
 }
 .ekle button:hover
 {
@@ -134,6 +142,7 @@ hr
     color: #F0F6FF;
     box-shadow: 0 0 15px black;
     text-shadow: 0 0 15px #F0F6FF;
+    transition: 1s;
 }
 .arada
 {
@@ -143,6 +152,7 @@ hr
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 1s;
 }
 .arada h2
 {
@@ -160,6 +170,8 @@ hr
     background-color: #FACC15;
     box-shadow: 0 5px 15px black;
     text-shadow: 0 0 15px #F0F6FF;
+    transition: 1.5s;
+    transition: 0.5s;
 }
 .arada:hover h2
 {
@@ -171,6 +183,7 @@ hr
     margin: 40px 30px;
     line-height: 55px;
     text-shadow: 0 0 15px black;
+    transition: 0.6s;
 }
 .login
 {
